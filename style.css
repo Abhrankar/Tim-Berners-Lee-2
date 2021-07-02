@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    padding-top: 100px;
+}
+
+#welcome {
+    height: 800px;
+    background: linear-gradient(brown 0%, pink 50%, black 100%);
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 2;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+#name {
+    font-size: 50px;
+    color: forestgreen;
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    color: firebrick;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: black;
+}
+
+p {
+    font-size: 17px;
+    margin: 25px auto;
+    line-height: 1.3;
+    max-width: 450px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 20px;
+    z-index: 10;
+}
+
+.link {
+    float: left;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    font-size: 25px;
+    font-family: cursive;
+    color: forestgreen;
+}
+
+.link:hover {
+    background-color: cornflowerblue;
+    font-size: 30px;
+}
+
+#contacts {
+    background: firebrick;
+}
+
+#contacts iframe {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+}
